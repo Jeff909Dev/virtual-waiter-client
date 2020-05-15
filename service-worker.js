@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/virtual-waiter-client/precache-manifest.b9f599b218666a2407bb35b886ec0708.js"
+  "/virtual-waiter-client/precache-manifest.7a97779427f761f937e6df13a9ae76eb.js"
 );
 
 self.addEventListener('message', (event) => {

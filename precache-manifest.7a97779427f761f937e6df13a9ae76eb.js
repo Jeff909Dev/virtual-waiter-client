@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ffe8c06e7984b9ebd4ee2730c72c64a",
+    "revision": "fa1e5a63023592ac36f6232f97f782dc",
     "url": "/virtual-waiter-client/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/virtual-waiter-client/static/css/2.ab5a1418.chunk.css"
   },
   {
-    "revision": "dd7b99144bc0d372d62c",
+    "revision": "5151610972798c06fae5",
     "url": "/virtual-waiter-client/static/css/main.32bef8e0.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/virtual-waiter-client/static/js/2.7f93af25.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd7b99144bc0d372d62c",
-    "url": "/virtual-waiter-client/static/js/main.d3e0fab9.chunk.js"
+    "revision": "5151610972798c06fae5",
+    "url": "/virtual-waiter-client/static/js/main.b7085f0b.chunk.js"
   },
   {
     "revision": "b82a42d8590bcf74e188",
