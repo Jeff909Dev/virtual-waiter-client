@@ -77,7 +77,7 @@ const ProductList = ({ product_list, hidePhoto }) => {
                                 description={<div style={{ display: 'flex', width: 14, height: 'auto' }}>
                                     {allergensRender(plato)}
                                 </div>} className="text-left" />
-                            <TextArea rows={2} />
+              
                         </List.Item>
                     )} />
                 : <Empty description="" />
