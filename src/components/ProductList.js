@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { isEmpty } from 'lodash';
-import { List, Avatar, Empty, Button, Tooltip, Input } from 'antd';
+import { List, Avatar, Empty, Button, Tooltip } from 'antd';
 import { allergens } from '../constants/allergens';
 import { ADD_PRODUCT, INCREASE_PRODUCT, DECREASE_PRODUCT, REMOVE_PRODUCT } from '../constants';
 import './css/ProductList.css'
@@ -19,8 +19,6 @@ const img_st = {
 const add_btn_icon = {
     verticalAlign: '-0.1rem'
 }
-
-const { TextArea } = Input;
 
 const allergensRender = plate => {
     const output = [];
