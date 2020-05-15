@@ -5,7 +5,7 @@ const Menu = ({ lang }) => {
     return (
         <Fragment>
             <h6 style={{fontSize: 'x-large', marginBottom: '1rem'}}>
-                {lang('MENU')}
+                {lang('MENU')} - Testing
             </h6>
             <CategoriesList lang={lang} />
         </Fragment>

@@ -1,6 +1,6 @@
 {
   "name": "virtual-waiter-client",
-  "homepage": "https://testing.kuarasoftware.com",
+  "homepage": "http://jeff909Dev.github.io/virtual-waiter-client/",
   "version": "0.1.0",
   "engines": {
     "node": "13.6.0",
@@ -48,7 +48,9 @@
     "build": "react-app-rewired build",
     "server": "json-server --host 192.168.1.45 --watch db.json --port 3001",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
