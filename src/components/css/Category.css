@@ -1,0 +1,25 @@
+.category_wrapper {
+  height: 7rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.category_btn {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 10rem;
+  color: white;
+  font-size: 100% !important;
+  font-weight: 400 !important;
+  letter-spacing: 1px;
+  border-color: transparent;
+  background-color: #22222273;
+}

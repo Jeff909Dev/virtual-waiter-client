@@ -1,0 +1,11 @@
+.ant-list-item-action > li {
+    text-align: right !important;
+}
+
+.quantity {
+    font-weight: bold;
+}
+
+.cartBtns {
+    color: #2e2b2b ;
+}

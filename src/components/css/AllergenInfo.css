@@ -1,0 +1,15 @@
+.allergen_title {
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.allergen_info_text {
+    font-size: .7rem;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.allergen_btn_text {
+    font-size: .7rem;
+    font-weight: bold;
+}

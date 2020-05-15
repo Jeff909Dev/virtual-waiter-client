@@ -1,0 +1,49 @@
+.home_menu_wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5em;
+}
+
+.home_menu_btn_side {
+  margin-top: -3rem;
+}
+
+.home_menu_btn_center {
+  margin-top: -0.75rem;
+}
+
+.home_menu_btn {
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  max-width: 100px;
+  max-height: 100px;
+  background-position: 50% 35%;
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 2px 2px #00000008;
+  cursor: pointer;
+}
+
+.home_menu_btn_text {
+  font-size: 0.7rem;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#main_waiter_btn {
+  background-image: url("./../../assets/img/delivery.png");
+}
+
+#main_menu_btn {
+  background-image: url("./../../assets/img/menu.png");
+}
+
+#main_ticket_status_btn {
+  background-image: url("./../../assets/img/cooking.png");
+}

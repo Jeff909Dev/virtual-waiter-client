@@ -1,0 +1,23 @@
+.header_style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  padding: 0 15px;
+  box-shadow: 0 0 7px 0px black;
+}
+
+.header_title_style {
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 1.4rem;
+}
+
+.header_icon {
+  color: #fff;
+  font-size: 1.4rem;
+  width: 10vw;
+}

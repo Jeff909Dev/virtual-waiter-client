@@ -1,0 +1,35 @@
+.menu-cat-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 10rem;
+  position: fixed;
+  top: 0;
+  background-size: cover;
+  z-index: 10;
+}
+
+.cat-title-style {
+  font-size: 100% !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px;
+  display: block;
+  position: absolute;
+  bottom: -20px;
+  color: #fff;
+  background-color: #222222;
+  padding: 15px !important;
+  text-transform: uppercase;
+  box-shadow: 0 0 4px 1px #00000073;
+}
+
+.menu-cat-header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #22222200, #222222);
+  opacity: 1;
+}

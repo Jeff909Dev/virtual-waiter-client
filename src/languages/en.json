@@ -1,0 +1,43 @@
+{
+    "Carta Virtual": "Virtual Menu",
+
+    "Camarero": "Waiter",
+    "Ver la carta": "Menu",
+    "Estado": "State",
+
+    "INFORMACIÓN SOBRE ALÉRGENOS:": "ALLERGEN INFORMATION:",
+    "REGLAMENTO (EU) Nº 1169/2011": "REGULATION (EU) Nº 1169/2011",
+    "MÁS INFORMACIÓN": "MORE INFO",
+    "Establecimiento con información disponible en materia de alergia e intolerancias alimentarias. Pueden solicitar esta información a nuestro personal o también consultarla en la APP pulsando en el botón:": "Establishment with available information on food allergies and intolerances. You can request this information from our staff or also consult it in the APP by clicking on the button:",
+
+    "Altramuces": "Lupin",
+    "Apio": "Celery",
+    "Cacahuetes": "Peanuts",
+    "Crustáceos": "Crustaceans",
+    "Dióxido de azufre y sulfitos": "Sulphur Dioxide (Sulphites)",
+    "Frustos de cáscara": "Nuts",
+    "Gluten": "Gluten",
+    "Huevo": "Eggs",
+    "Lácteos": "Milk",
+    "Moluscos": "Molluscs",
+    "Mostaza": "Mustard",
+    "Pescado": "Fish",
+    "Sésamo": "Sesame",
+    "Soja": "Soy",
+
+    "CATEGORIAS": "CATEGORIES",
+    "Carnes": "Meats",
+    "Pescados": "Fish",
+    "Ensaladas": "Salads",
+    "Entrantes": "Starters",
+    "Pastas": "Pasta",
+    "Pizzas": "Pizza",
+    "Refrescos": "Refreshs",
+    "Vinos tintos": "Red wine",
+    "Vinos blancos": "White wine",
+    "Vinos rosados": "Rose wine",
+    "Agua": "Water",
+    "Champán y cava": "Champagne and cava",
+    "Infusiones y cafés": "Infunsions and coffee",
+    "Licores": "Liquor"
+}

@@ -1,0 +1,238 @@
+html {
+  overflow:   scroll;
+}
+
+body {
+  font-family: "Charlie Display" !important;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+button {
+  outline: none !important;
+}
+
+/* KUARA FONT */
+@font-face {
+  font-family: 'Charlie Display';
+  src: url('./../assets/fonts/1/CharlieDisplay-BlackItalic.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieDisplay-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Charlie Display';
+  src: url('./../assets/fonts/1/CharlieDisplay-Regular.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieDisplay-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charlie Display';
+  src: url('./../assets/fonts/1/CharlieDisplay-LightItalic.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieDisplay-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Charlie Text';
+  src: url('./../assets/fonts/1/CharlieText-Bold.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieText-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charlie Display Ultra';
+  src: url('./../assets/fonts/1/CharlieDisplay-UltraItalic.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieDisplay-UltraItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Charlie Text';
+  src: url('./../assets/fonts/1/CharlieText-Black.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieText-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charlie Text';
+  src: url('./../assets/fonts/1/CharlieText-BlackItalic.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieText-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Charlie Display';
+  src: url('./../assets/fonts/1/CharlieDisplay-Semibold.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieDisplay-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charlie Text';
+  src: url('./../assets/fonts/1/CharlieText-Thin.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieText-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charlie Display';
+  src: url('./../assets/fonts/1/CharlieDisplay-Thin.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieDisplay-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charlie Display';
+  src: url('./../assets/fonts/1/CharlieDisplay-Light.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieDisplay-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charlie Text';
+  src: url('./../assets/fonts/1/CharlieText-BoldItalic.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieText-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Charlie Text';
+  src: url('./../assets/fonts/1/CharlieText-ThinItalic.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieText-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Charlie Text';
+  src: url('./../assets/fonts/1/CharlieText-SemiboldItalic.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieText-SemiboldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Charlie Display';
+  src: url('./../assets/fonts/1/CharlieDisplay-Black.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieDisplay-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charlie Text';
+  src: url('./../assets/fonts/1/CharlieText-Semibold.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieText-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charlie Display';
+  src: url('./../assets/fonts/1/CharlieDisplay-BoldItalic.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieDisplay-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Charlie Display';
+  src: url('./../assets/fonts/1/CharlieDisplay-SemiboldItalic.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieDisplay-SemiboldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Charlie Display Ultra';
+  src: url('./../assets/fonts/1/CharlieDisplay-Ultra.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieDisplay-Ultra.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charlie Text';
+  src: url('./../assets/fonts/1/CharlieText-Italic.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieText-Italic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Charlie Text';
+  src: url('./../assets/fonts/1/CharlieText-Regular.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieText-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charlie Display';
+  src: url('./../assets/fonts/1/CharlieDisplay-Italic.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieDisplay-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Charlie Display';
+  src: url('./../assets/fonts/1/CharlieDisplay-ThinItalic.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieDisplay-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Charlie Text';
+  src: url('./../assets/fonts/1/CharlieText-LightItalic.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieText-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Charlie Text';
+  src: url('./../assets/fonts/1/CharlieText-Light.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieText-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charlie Display';
+  src: url('./../assets/fonts/1/CharlieDisplay-Bold.woff2') format('woff2'),
+      url('./../assets/fonts/1/CharlieDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* CORREGIR COLOR LINEAS SEPRADORAS LISTAS */
+.ant-list-split {
+  border-bottom: 1px solid #8485871a !important;
+}
+
+.ant-list-item-action > li {
+  display: block;
+}
+
+.ant-timeline-item-tail {
+  border-left: 2px dotted #2222223d !important;
+}
